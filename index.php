@@ -73,7 +73,7 @@ span.min-temperature {
         </div>
         <div class="weather-forecast">
             <img
-                src=<?php echo $data->current->condition->icon; ?>.png"
+                src=<?php echo $data->current->condition->icon; ?>
                 class="weather-icon" /> <?php echo $data->current->temp_c; ?>&deg;C<span
                 class="min-temperature"><?php echo $data->current->temp_f; ?>&deg;F</span>
         </div>
