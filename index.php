@@ -1,6 +1,6 @@
 <?php
-$apiKey = "4a756b56637f475bb0284027202510";
-$googleApiUrl = "http://api.weatherapi.com/v1/current.json?key=".$apiKey."q=Philippines";
+
+$googleApiUrl = "http://api.weatherapi.com/v1/current.json?key=4a756b56637f475bb0284027202510&q=Philippines";
 
 $ch = curl_init();
 curl_setopt($ch, CURLOPT_HEADER, 0);
