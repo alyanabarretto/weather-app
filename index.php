@@ -52,7 +52,7 @@ body {
 
 span.min-temperature {
     margin-left: 15px;
-    color: #929292;
+    color: #555d50;
 }
 
 .time {
