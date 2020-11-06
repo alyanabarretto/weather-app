@@ -26,7 +26,7 @@ $currentTime = time();
 body {
     font-family: Arial;
     font-size: 0.95em;
-    color: #929292;
+    color: #635147;
 }
 
 .report-container {
@@ -44,7 +44,7 @@ body {
 }
 
 .weather-forecast {
-    color: #212121;
+    color: #635147;
     font-size: 1.2em;
     font-weight: bold;
     margin: 20px 0px;
