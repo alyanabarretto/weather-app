@@ -1,5 +1,5 @@
 <?php
-$apiKey = "4a756b56637f475bb028402720251";
+$apiKey = "4a756b56637f475bb0284027202510";
 $googleApiUrl = "http://api.weatherapi.com/v1/current.json?key=".$apiKey."q=Philippines";
 
 $ch = curl_init();
@@ -13,6 +13,7 @@ $response = curl_exec($ch);
 
 curl_close($ch);
 $data = json_decode($response);
+date_default_timezone_set("Asia/Manila");
 $currentTime = time();
 ?>
 
